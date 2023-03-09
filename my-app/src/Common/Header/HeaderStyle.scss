@@ -1,3 +1,9 @@
+// SCSS for Head part
+body {
+   padding: 0;
+   margin: 0;
+}
+
 .flex {
    display: flex;
    color: white;
@@ -6,6 +12,7 @@
    align-items: center;
    text-align: center;
    justify-content: center;
+
    &:a {
       color: white;
    }
@@ -16,7 +23,6 @@
    align-items: center;
    text-align: center;
    justify-content: center;
-   padding: 1rem;
    gap: 1rem;
 }
 
@@ -25,4 +31,104 @@
    grid-template-columns: 1fr 1fr;
    background: #0f3460;
    height: 3rem;
+   gap: 15rem;
+}
+
+// SCSS for Search part
+
+.search {
+   text-align: center;
+   background: rgb(248, 246, 246);
+   display: grid;
+   grid-template-columns: 1fr 2fr 1fr;
+   width: auto;
+   align-items: center;
+   justify-content: center;
+}
+
+.search .user {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   justify-self: flex-end;
+   padding: 0 6rem;
+   gap: 3rem;
+   border-radius: 50%;
+}
+
+.search .icon {
+   background-color: rgb(228, 228, 240);
+   height: 3rem;
+   width: 3rem;
+   border-radius: 50%;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   font-size: 1rem;
+}
+
+.search .label {
+background: red;
+height: 1.3rem;
+width: 1.3rem;
+position: absolute;
+right: 6rem;
+top: 3.8rem;
+border-radius: 50%;
+
+
+}
+
+.search h1 {
+   color: red;
+}
+
+.search .flex {
+   position: relative;
+   height: 60%;
+   opacity: "";
+   width: 90%;
+   margin: auto;
+   display: grid;
+   grid-template-columns: 1fr .5fr;
+   justify-content: center;
+   padding: 0 1rem;
+   background: rgb(248, 246, 246);
+   color: rgba(7, 0, 0, 1);
+   align-items: center;
+   justify-content: center;
+   opacity: .5;
+   border-radius: 40px 40px;
+   border: solid black;
+   border-color: rgb(134, 133, 133);
+   border-width: .1rem;
+}
+
+.search .flex::before {
+   content: "";
+   position: absolute; //.search .flex position have to be relative;
+   top: 0;
+   bottom: 0;
+   left: 75%;
+   /* position the line in the center of the flex container */
+   border-left: 1px solid #ccc;
+   /* add a 1px solid line */
+}
+
+
+.search .searchBar {
+   display: flex;
+   gap: 1rem;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+}
+
+.search .searchBar input {
+   border-style: none;
+   width: 100%;
+   padding: 10px;
+   outline: 0;
 }
