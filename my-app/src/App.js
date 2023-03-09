@@ -1,7 +1,11 @@
-
+import Head from "./Common/Header/Header";
 function App() {
   return (
-    <>app</>
+    <>
+      <Head/>
+
+       </>
+
   )
 }
 
