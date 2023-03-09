@@ -19,7 +19,7 @@ const Search = () => {
       <div className='user'>
         <span className='icon'><FaUserAlt /></span>
         <span className='icon'> <GiBeachBag /></span>
-        <label className='label'></label>
+        <label className='label'>10</label>
       </div>
     </div>
   )
