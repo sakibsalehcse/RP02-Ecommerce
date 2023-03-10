@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "caption":"Fashion",
+        "icon":"../Assets/CategoryIcon/cat1.png"
+    },
+    {
+        "id": 2,
+        "caption":"Electronic",
+        "icon":"../Assets/CategoryIcon/cat2.png"
+    },
+    {
+        "id": 3,
+        "caption":"Cars",
+        "icon":"../Assets/CategoryIcon/cat3.png"
+    },
+    {
+        "id": 4,
+        "caption":"Home & Garden",
+        "icon":"../Assets/CategoryIcon/cat4.png"
+    },
+    {
+        "id": 5,
+        "caption":"Gifts",
+        "icon":"../Assets/CategoryIcon/cat5.png"
+    },
+    {
+        "id": 6,
+        "caption":"Music",
+        "icon":"../Assets/CategoryIcon/cat6.png"
+    },
+    {
+        "id": 7,
+        "caption":"Health & Beauty",
+        "icon":"../Assets/CategoryIcon/cat7.png"
+    },
+    {
+        "id": 8,
+        "caption":"Pets",
+        "icon":"../Assets/CategoryIcon/cat8.png"
+    },
+    {
+        "id": 9,
+        "caption":"Baby Toys",
+        "icon":"../Assets/CategoryIcon/cat9.png"
+    },
+    {
+        "id": 10,
+        "caption":"Groceries",
+        "icon":"../Assets/CategoryIcon/cat10.png"
+    },
+    {
+        "id": 11,
+        "caption":"Books",
+        "icon":"../Assets/CategoryIcon/cat11.png"
+    }
+]
