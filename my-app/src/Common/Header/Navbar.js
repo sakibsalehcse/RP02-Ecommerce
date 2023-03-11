@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className='flex'>
-        <BiCategory className='icon'/> 
+        <BiCategory className='icon'/>
         <h2>Categories</h2>
         <BiChevronDown className='icon'/>
       </div>
