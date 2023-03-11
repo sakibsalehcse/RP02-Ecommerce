@@ -21,7 +21,7 @@ const AppProvider = ({ children }) => {
     const [state, dispatch] = useReducer(ProductReducer, initialState);
 
     const getProducts = async (ApiUrl) => { // actually passing Api here getProduct(Api)  its actually returns promises  thats why async is used
-        dispatch({type:"Loading"});
+        dispatch({type:"Set_Loading"});
         try {
             const resDataFromApi = await axios.get(ApiUrl);   // await also used for the same reason coz its returning promise insted of .then .then .catch we  use async and await
             console.log(resDataFromApi); // thats for checking that we are getting data from APi or not
