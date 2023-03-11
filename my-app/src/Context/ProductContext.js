@@ -1,4 +1,4 @@
-import { createContext, useContext } from "react";
+import { createContext, useContext, useEffect } from "react";
 
 // provider
 // consumer => useContext Hook
@@ -6,8 +6,18 @@ import { createContext, useContext } from "react";
 // create a context
 
 const AppContext =createContext();
+const Api ="https://api.pujakaitem.com/api/products";
+
 
 const AppProvider=({children})=>{
+
+
+    const getProducts =(ApiUrl)=>{ // actually passing Api here getProduct(Api)
+
+    }
+    useEffect(()=>{
+        getProducts(Api);
+    },[]); // [] this is for array dependencies
 
     return(
         <AppContext.Provider value={{GlobalProductName:"Iphone"}}>{children}</AppContext.Provider> 
