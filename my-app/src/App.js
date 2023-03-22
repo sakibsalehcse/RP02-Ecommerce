@@ -7,6 +7,7 @@ import VendorAccount from "./Component/VendorAccount";
 import TrackMyOrder from "./Component/TrackMyOrder";
 import Contact from "./Component/Contact";
 import Header from "./Common/Header/Header";
+import CartView from "./feature/CartView";
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
           <Route path="/vendorAccount" element={<VendorAccount />} />
           <Route path="/trackmyorder" element={<TrackMyOrder />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/cartview" element={<CartView />} />
         </Routes>
       </BrowserRouter>
     </>
