@@ -22,7 +22,7 @@ export default Header;
 const HeaderStyle=styled.section`
 
 .main{
-position:fixed;
+  position: absolute;
 
 }
 `;

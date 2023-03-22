@@ -2,18 +2,15 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const ApiUrl = "https://fakestoreapi.com/products/";
+const ApiUrl = "https://api.pujakaitem.com/api/products";
 
 export const fetchPosts = createAsyncThunk("posts/fetchPosts", async () => {
-
     const res = await axios.get(ApiUrl);
-
     return res.data;
 })
 
 const postsSlice = createSlice({
-
-    name: "posts",
+    name: "posts1",
     initialState: {
         isLoading: false,
         posts: [],
